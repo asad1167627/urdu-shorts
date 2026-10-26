@@ -1,0 +1,39 @@
+name: Make Urdu Shorts
+
+# Runs when you press the "Run workflow" button on the Actions tab.
+on:
+  workflow_dispatch:
+    inputs:
+      scripts_file:
+        description: "Which scripts file to use"
+        default: "scripts.txt"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Get the project files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Urdu font, text shaping and ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-core libraqm0 libfribidi0 ffmpeg
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: Make the videos
+        run: python make_shorts.py --scripts "${{ github.event.inputs.scripts_file }}"
+
+      - name: Save the videos so you can download them
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts
+          path: out/
