@@ -1,0 +1,20 @@
+# HOW THIS FILE WORKS
+# - Lines starting with # are ignored (notes to yourself).
+# - First line of each video = the title shown at the top.
+# - Every line after it = one caption on screen, spoken in order. Keep each line short.
+# - A line starting with  tags:  is optional (hashtags for the description).
+# - Put --- on its own line between videos.
+# - About 120 to 140 Urdu words in total makes roughly a 50 to 60 second video.
+
+مصنوعی ذہانت کیا ہے؟
+کیا آپ جانتے ہیں کہ آپ کا موبائل آپ کی بات سمجھ لیتا ہے؟
+اس کے پیچھے ہے مصنوعی ذہانت، یعنی اے آئی۔
+اے آئی ایسا کمپیوٹر پروگرام ہے جو مثالوں سے سیکھتا ہے۔
+جیسے بچہ بار بار دیکھ کر بلی اور کتے میں فرق سیکھ لیتا ہے۔
+اسی طرح کمپیوٹر لاکھوں مثالیں دیکھ کر پیٹرن پہچاننا سیکھ لیتا ہے۔
+جب آپ یوٹیوب پر ویڈیو دیکھتے ہیں تو وہی آپ کی پسند کا اندازہ لگا کر نئی ویڈیوز دکھاتی ہے۔
+اردو بول کر گوگل پر سرچ کرنا اور ترجمہ کرنا بھی اسی کا کمال ہے۔
+لیکن یاد رکھیں، اے آئی غلطی بھی کرتی ہے، اس لیے ہر بات کی تصدیق ضرور کریں۔
+ایسی مزید آسان باتوں کے لیے چینل کو فالو کریں۔
+tags: #اے_آئی #ٹیکنالوجی #اردو #Shorts
+---
